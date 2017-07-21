@@ -6,6 +6,7 @@ function getParam(p){
 }
 
 var gclid = getParam('gclid');
+
 if(gclid){
 	/* Este es el selector de instapage para el nombre 'gclid' porque lo encodean en base 64  */
 	var inputs = ijQuery('input[name="Z2NsaWQ="]'); 
