@@ -1,5 +1,7 @@
 /** código para guardar el gclid de adwords en el campo hidden "gclid" de instapage, y que lo pueda enviar luego a salesforce */
 
+// test
+
 function getParam(p){
 	var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
 	return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
